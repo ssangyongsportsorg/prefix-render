@@ -6,7 +6,7 @@ WORKDIR /pretix
 
 # 复制配置文件和数据目录
 COPY pretix.cfg /etc/pretix/pretix.cfg
-COPY data /var/pretix-data
+
 
 # 暴露 Pretix 服务端口
 EXPOSE 8000
