@@ -9,7 +9,7 @@ COPY pretix.cfg /etc/pretix/pretix.cfg
 COPY data /var/pretix-data
 
 # 暴露 Pretix 服务端口
-EXPOSE 80
+EXPOSE 8000
 
 # 启动命令
 CMD ["./start-pretix.sh"]
